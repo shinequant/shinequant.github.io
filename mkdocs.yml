@@ -1,0 +1,13 @@
+site_name: shine的Quant博客
+theme:
+  name: material
+  features:
+    - content.code.copy
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+nav:
+  - 首页: index.md
+  - 好玩的东西: 
+    - 黄大仙求签: fun/黄大仙求签.md
