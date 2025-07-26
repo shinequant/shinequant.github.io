@@ -7,7 +7,8 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.inlinehilite
-nav:
-  - 首页: index.md
-  - 好玩的东西: 
-    - 黄大仙求签: fun/黄大仙求签.md
+plugins:
+  - search
+  - literate-nav
+extra_css:
+  - css/nocache.css
